@@ -8,10 +8,14 @@
 }
 input[type="checkbox"]{
     position: fixed;
+    display: inline-block;
     z-index: 1;
     top: 40px;
     right: 100px;
     cursor: pointer;
+    letter-spacing: 4px;
+    text-decoration: none;
+    transition: 0.3s;
 }
 input[type="checkbox"]:before{
     content: 'Dark';
@@ -38,7 +42,7 @@ section{
 }
 section img{
     max-width: 500px;
-    float: inline-end;
+    align-items: center;
     margin: 10px 20px 10px 0;
     filter: inherit;
 }
